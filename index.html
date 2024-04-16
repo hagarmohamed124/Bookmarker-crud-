@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark....</title>
+    <link rel="icon" href="bookmark.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js">
+
+  
+</head>
+<body>
+  
+
+
+<div class="d-flex justify-content-center align-items-center py-4">
+    <h1  >Bookmarker</h1>
+</div>
+    
+
+
+<div class=" w-75 mx-auto mt-5 py-5">
+
+    
+    <label for="booKmarK"  class="pb-1"> 
+    <i class="fa-solid fa-book pe-2"></i>
+    <b>Site Name</b> 
+    </label>
+    <input type="text"  id="booKmarK"    placeholder="BooKmarK Name" class="form-control border-success mb-2  ">
+
+<i></i>
+
+
+    <label for="url" class="pb-1">
+ 
+      <i class="fa-solid fa-link pe-2"></i>
+        <b>Site URL</b>
+    </label>
+    <input type="text"  id="url"    placeholder="website URL" class="form-control mb-2 ">
+    
+<button   onclick="getsubmit()"   class="btn btn-danger px-5 mx-auto d-block">Submit</button>
+
+<input type="text"  id="search" onkeyup="searchElement(this.value)" placeholder="Search" class="form-control  my-2 w-50 mx-auto">
+
+
+
+
+..........................................................................................................................................................................................................................................................................................................................................
+<table class="table table-striped mt-3 text-center ">
+<thead>
+<tr>
+    <th>Index</th>
+    <th>Website Name</th>
+    <th>Visit</th>
+    <th>Delete</th>
+</tr>
+</thead>
+
+<tbody id="tbody" >
+
+    
+</tbody>
+
+
+  </table>
+
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
